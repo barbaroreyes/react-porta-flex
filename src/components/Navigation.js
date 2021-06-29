@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <div className = 'Nav'>
         <button onClick ={()=> setModalOpen(true)}>Navigation</button>
-        <Modal isOpen={modalOpen}>
+        <Modal className='modal' isOpen={modalOpen}>
         <Link to ='/'>Home</Link>
      <Link to ='/'>About</Link>
      <Link to ='/'>Portafolio</Link>
