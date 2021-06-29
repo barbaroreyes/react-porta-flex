@@ -1,13 +1,19 @@
-import React from 'react'
+import React , {useState} from 'react'
 import { Link } from 'react-router-dom'
-
+import Modal from 'react-modal'
 const Navigation = () => {
+    const [modalOpen,setModalOpen] = useState(false)
   return (
     <div className = 'Nav'>
-     <Link to ='/'>Home</Link>
+        <button onClick ={()=> setModalOpen(true)}>open</button>
+        <Modal isOpen={modalOpen}>
+        <Link to ='/'>Home</Link>
      <Link to ='/'>About</Link>
      <Link to ='/'>Portafolio</Link>
      <Link to ='/'>Contact</Link>
+     <button onClick ={()=> setModalOpen(false)}>Close</button>
+        </Modal>
+    
     </div>
   )
 }
