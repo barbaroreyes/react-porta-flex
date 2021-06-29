@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactportaflex-dev-124519-authRole",
+      "UnauthRoleArn": "arn:aws:iam::683932190615:role/amplify-reactportaflex-dev-124519-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::683932190615:role/amplify-reactportaflex-dev-124519-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-reactportaflex-dev-124519-deployment",
+      "UnauthRoleName": "amplify-reactportaflex-dev-124519-unauthRole",
+      "StackName": "amplify-reactportaflex-dev-124519",
+      "StackId": "arn:aws:cloudformation:us-east-2:683932190615:stack/amplify-reactportaflex-dev-124519/c96f2070-d901-11eb-86d2-0a9f3c449e8c",
+      "AmplifyAppId": "d18mqs05g5rgsh"
+    }
+  }
+}
