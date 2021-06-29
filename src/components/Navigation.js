@@ -7,7 +7,7 @@ const Navigation = () => {
     <div className = 'Nav'>
         <button onClick ={()=> setModalOpen(true)}>Navigation</button>
         <Modal className='modal' isOpen={modalOpen}>
-        <Link to ='/'>Home</Link>
+     <Link to ='/'>Home</Link>
      <Link to ='/'>About</Link>
      <Link to ='/'>Portafolio</Link>
      <Link to ='/'>Contact</Link>
