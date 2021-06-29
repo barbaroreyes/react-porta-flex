@@ -5,7 +5,7 @@ const Navigation = () => {
     const [modalOpen,setModalOpen] = useState(false)
   return (
     <div className = 'Nav'>
-        <button onClick ={()=> setModalOpen(true)}>open</button>
+        <button onClick ={()=> setModalOpen(true)}>Navigation</button>
         <Modal isOpen={modalOpen}>
         <Link to ='/'>Home</Link>
      <Link to ='/'>About</Link>
