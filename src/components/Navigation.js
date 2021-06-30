@@ -7,10 +7,12 @@ const Navigation = () => {
     <div className = 'Nav'>
         <button onClick ={()=> setModalOpen(true)}>Navigation</button>
         <Modal className='modal' isOpen={modalOpen}>
-     <Link to ='/'>Home</Link>
-     <Link to ='/'>About</Link>
-     <Link to ='/'>Portafolio</Link>
-     <Link to ='/'>Contact</Link>
+        <ul>
+      <a href="#home">Home</a>
+      <a href="https://barbaroreyes.github.io/First-Responsive-WebsiteBarbaro/">About</a>
+      <a href="https://barbaroreyes.github.io/tablas/">Portfolio</a>
+      <a href="#Ch">Contact</a>
+      </ul>
      <button onClick ={()=> setModalOpen(false)}>Close</button>
         </Modal>
     
