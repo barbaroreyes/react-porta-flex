@@ -4,6 +4,7 @@ import HomePage from './components/HomePage';
 import './App.css';
 import Name from './components/Name';
 import Welcome from './components/Welcome'
+import Title from './components/Title';
 
 
 function App() {
@@ -11,11 +12,10 @@ function App() {
     <div className="App">
      <Switch>
        <Route exact path='/'>
-         <HomePage/>
-         <Welcome/>
-       
-         
-        </Route >
+        <Welcome/>
+          <HomePage/>
+          <Title/>
+         </Route >
      </Switch>
     </div>
   );
