@@ -12,6 +12,13 @@ function App() {
        <Route exact path='/'>
          <HomePage/>
          <Name/>
+         <Name/>
+         <Name/>
+         <Name/>
+         <Name/>
+         <Name/>
+         <Name/>
+         <Name/>
 
        </Route >
       

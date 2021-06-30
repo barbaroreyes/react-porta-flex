@@ -6,8 +6,8 @@ const HomePage = () => {
   return (
     <div className="container">
       <Navigation/>
-      
-      <h1>Software Developer</h1>
+        <Name/>
+     
       
     </div>
   )
