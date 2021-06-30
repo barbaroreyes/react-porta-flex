@@ -5,8 +5,8 @@ import Name from   './Name'
 const HomePage = () => {
   return (
     <div className="container">
-      <Navigation/>
-        <Name/>
+    <Navigation/>
+     <Name/>
      </div>
   )
 }

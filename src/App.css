@@ -3,17 +3,17 @@
   background: linear-gradient(to left, rgb(86, 113, 235), #131414);
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
-  border: 10px solid white;
-  padding: 20px;
+  justify-content:center;
+  /* border: 10px solid white; */
+ 
 }
 
 .container{
-  border: 4px solid white;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  height: fit-content;
+  /* border: 4px solid white;
+  flex-direction: column; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* height: fit-content; */
   /* padding:20px; */
   /* justify-content:center;
   flex-direction:column;
@@ -49,32 +49,38 @@
   justify-content: center;
   flex-direction:column;
   align-items: center;
-  padding: 50px;
 
 }
 .work{
   width:100% ;
-  /* border-radius: 10px  30px;
-  margin: 10px; */
+ 
 }
 .wel{
   width: 100%;
-  /* height: 200px; */
-  border: 2px solid white;
+  color: white;
   margin : 10px;
   padding: 10px;
+}.parraph{
+  border: 2px solid white;
+  color:white;
+  display: flex;
+  padding: 10px;
+}
+.link{
+  margin: 10px;
+  color:white;
+  font-size: 30px;
+}.line{
+  color:white;
 }
 @media (min-width: 768px){
   .container{
+    /* border: 2px solid; */
     display: flex;
     justify-content: center;
     flex-direction:column-reverse;
     color: #fff;
-   /* width: 20%; */
-  }
-  .box{
-    margin:30px;
-    padding: 20px;
+   /* width: 45%; */
   }
   .Nav{
      display: flex;
@@ -108,9 +114,15 @@
     width:300px;
    
   }.wel{
-    border: 1px solid white;
-    margin: 30px;
-   width: 520px;
+   width: 300px;
+   color:white;
+   border: 4px solid white;
+  }.socials-liks{
    
+  width: 200px;
   }
+  p{
+    padding: 25px;
+  }
+ 
 }

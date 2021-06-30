@@ -13,6 +13,8 @@ function App() {
        <Route exact path='/'>
          <HomePage/>
          <Welcome/>
+       
+         
         </Route >
      </Switch>
     </div>
