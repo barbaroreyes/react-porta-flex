@@ -7,9 +7,7 @@ const HomePage = () => {
     <div className="container">
       <Navigation/>
         <Name/>
-     
-      
-    </div>
+     </div>
   )
 }
 
