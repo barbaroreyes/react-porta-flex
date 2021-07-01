@@ -7,23 +7,29 @@ const Projects = () => {
   return (
     <div className='projects'>
         <div className='project'>
-            <h1>name</h1>
+            <h3>App</h3>
+            <h3>Github</h3>
+            <h3>name</h3>
         <img className='pictures' src={Ecomerce} alt="Project"/>
         </div>
         <div className='project'>
-        <h1>name</h1>
+        <h3>App</h3>
+            <h3>Github</h3>
+            <h3>name</h3>
         <img className='pictures' src={Robot} alt="Project"/>
         </div>
         <div className='project'>
-        <h1>name</h1>
+        <h3>App</h3>
+            <h3>Github</h3>
+            <h3>name</h3>
         <img className='pictures' src={Media} alt="Project"/>
         </div>
         <div className='project'>
-        <h1>name</h1>
+        <h3>App</h3>
+            <h3>Github</h3>
+            <h3>name</h3>
         <img className='pictures' src={Do} alt="Project"/>
         </div>
-     
-     
     </div>
   )
 }
