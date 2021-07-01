@@ -13,9 +13,9 @@ const Projects = () => {
         <img className='pictures' src={Beers} alt="Project"/>
         </div>
         <div className='project shadow-5 grow'>
-        <h3><a href='https://main.d1t4o2etqu2abr.amplifyapp.com/'>App</a></h3>
-            <h3><a href=''>Github</a></h3>
-            <h3>name</h3>
+        <h3><a href='https://master.dvyvkfnmu8g3u.amplifyapp.com/'>App</a></h3>
+            <h3><a href='https://github.com/barbaroreyes/newT2/tree/master'>Github</a></h3>
+            <h3>Robots-Friends</h3>
         <img className='pictures ' src={Robot} alt="Project"/>
         </div>
         <div className='project shadow-5 grow'>
