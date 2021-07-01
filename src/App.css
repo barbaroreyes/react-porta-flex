@@ -3,7 +3,10 @@
   background: linear-gradient(to left, rgb(86, 113, 235), #131414);
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  /* justify-content: center;
+  flex-direction: row;
+  align-items:center; */
+  /* justify-content:space-around; */
   padding: 20px;
   /* border: 10px solid white; */
  
@@ -126,7 +129,21 @@
   p{
     margin: 20px;
     padding: 45px;
-    /* border: 1px solid white; */
+    
+  }
+  form{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    padding: 20px;
+    box-shadow:  3px 5px;
+  }
+  input{
+    margin: 10px;
+    width : 100%;
+  
   }
  
 }

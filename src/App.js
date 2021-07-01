@@ -5,6 +5,7 @@ import './App.css';
 import Name from './components/Name';
 import Welcome from './components/Welcome'
 import Title from './components/Title';
+import Form from './components/Form';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Welcome/>
           <HomePage/>
           <Title/>
+          <Form/>
          </Route >
      </Switch>
     </div>
