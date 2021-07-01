@@ -88,34 +88,17 @@ padding: 30px;
 margin : 30px;
 width: 100%;
 }
-.projects{
-  /* border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  flex-direction:column;
-  align-items: center;
-  width: 100%;
- padding:20px; */
 
-}
-.project{
-  /* width :100%;
-  padding:70px;
-  margin:1px;
-  height : 120px; */
-}
 .pictures{
   width: 70%;
 
 }
 @media (min-width: 768px){
   .container{
-    /* border: 2px solid; */
     display: flex;
     justify-content: center;
     flex-direction:column-reverse;
     color: #fff;
-   /* width: 45%; */
   }
   .Nav{
      display: flex;
@@ -175,27 +158,14 @@ width: 100%;
     width : 50%;
   
   }
-  .pictures{
-    /* width: 70%; */
-    /* height: 200px; */
-  }
+ 
   .projects{
     display: flex;
     margin: 30px;
     height: 500px;
-    /* margin:10px; */
-    /* display: flex;  */
-    /* justify-content: center;
-    flex-direction:row;
-    height: 500px;
-  }
- .project{
-  /* margin: 0;
- border :1px solid white; */
  }
  .project{
-   /* border: 1px solid white; */
-   /* padding: 10px; */
+ 
    display: flex;
    justify-content: center;
    flex-direction:column;
