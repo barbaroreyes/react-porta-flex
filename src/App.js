@@ -6,7 +6,7 @@ import Name from './components/Name';
 import Welcome from './components/Welcome'
 import Title from './components/Title';
 import Form from './components/Form';
-
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
           <HomePage/>
           <Title/>
           <Form/>
+          <Projects/>
          </Route >
      </Switch>
     </div>
