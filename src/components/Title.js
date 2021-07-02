@@ -18,7 +18,7 @@ const Title = () => {
                        
                        <p className='p-change one'><i class="fas fa-envelope-square">
                        <a  className=''href='barbarotrabajo@gmail.com'>
-                       <i class="fas fa-phone-alt"> <h1>Tel: 5126086054</h1></i>
+                       <i class="fas fa-phone-alt"> <h1>Tel: 5129703666</h1></i>
                        <p><button><a className=' bg-black' 
                        href="mailto:barbarotrabajo@gmail.com?subject= Hey Barbaro, I'm interested in hearing from you! "
                        target='_black'>Email Me</a></button></p></a></i></p></div>
