@@ -16,7 +16,7 @@ function App() {
         <Welcome/>
           <HomePage/>
           <Title/>
-          <Form/>
+          
           <Projects/>
          </Route >
      </Switch>
